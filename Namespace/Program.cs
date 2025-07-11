@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("This is my first C# program, I'm learning the basics. Are you ready to start this journey with me?");
+        Console.WriteLine("Hello, World! This is my first C# program, I'm learning the basics. Are you ready to start this journey with me?");
              
         Continue nextStep = new Continue();
         nextStep.NextStep("Are you ready to start this journey with me?");
