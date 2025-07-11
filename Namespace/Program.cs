@@ -20,6 +20,9 @@ class Program
 
         nextStep.NextStep("How about we play a bit with words now?");
 
+        Words words = new Words();
+        words.CountLetters();
+
         Console.WriteLine("Thank you for joining me on this journey! I hope we both learned something new today.");
 
     }
